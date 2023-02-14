@@ -1,4 +1,4 @@
-trigger OppTrigger2 on Opportunity(before insert) {
+trigger OppTrigger2 on Opportunity (before insert) {
 
     List<Opportunity> oppList = [SELECT Id, Name FROM Opportunity WHERE Name =: Trigger.new[0].Name];
 
