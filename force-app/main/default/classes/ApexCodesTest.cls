@@ -3,7 +3,11 @@ public class ApexCodesTest {
     @isTest
     public static void TestA() {
 
-        ApexCodes.FullName('Ayse', 'Yilmaz');
+        String result = ApexCodes.FullName('Ayse','Yilmaz');
+
+        System.assertEquals('Ayse Yilmaz', result);
+
+     
 
 
 
