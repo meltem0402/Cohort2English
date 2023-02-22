@@ -43,4 +43,18 @@ public class AreaCalculations {
         return area;
 
     }
+    public static void areaRectangleE(Decimal h,Decimal b ){
+        
+        Decimal area = h*b;
+
+        System.debug('The area of this rectangle is :' + area);
+
+    }
+    public void areaRectangleF(Decimal h,Decimal b ){
+        
+        Decimal area = h*b;
+
+        System.debug('The area of this rectangle is :' + area);
+
+    }
 }
